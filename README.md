@@ -4,16 +4,16 @@
 -------------
 
 - 4개 xml을 만들어 1번 화면, 2번 화면, 3번 화면, 4번 화면의 특징
-1) 1번 화면(Toast, Change Text View) : Toast, Intent, 2 Buttons(Toast + Change Text View, Next View), Text View 
+(1) 1번 화면(Toast, Change Text View) : Toast, Intent, 2 Buttons(Toast + Change Text View, Next View), Text View 
               
               
-2) 2번 화면(Sub Layout View) : 2 Buttons(Home, Login View), Text View
+(2) 2번 화면(Sub Layout View) : 2 Buttons(Home, Login View), Text View
               
               
-3) 3번 화면(Login View) : Put Extra, Edit Text(ID, PSW), 2 Buttons(LOGIN, Home)
+(3) 3번 화면(Login View) : Put Extra, Edit Text(ID, PSW), 2 Buttons(LOGIN, Home)
               
               
-4) 4번 화면(Check ID, PSW View) : Get Extra, View Text(ID, PSW), 1 Button(Home)
+(4) 4번 화면(Check ID, PSW View) : Get Extra, View Text(ID, PSW), 1 Button(Home)
 
 
 21_01_07_THU
