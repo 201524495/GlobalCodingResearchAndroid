@@ -4,6 +4,7 @@
 -------------
 
 - 4개 xml을 만들어 1번 화면, 2번 화면, 3번 화면, 4번 화면의 특징
+
 (1) 1번 화면(Toast, Change Text View) : Toast, Intent, 2 Buttons(Toast + Change Text View, Next View), Text View 
               
               
