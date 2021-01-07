@@ -20,6 +20,21 @@
 21_01_07_THU
 -------------
               
+- Page 이름 변경 및 추가 : Main, Sub, Login, Register, Check_ID_PSW
+- 각 Page 이름 표시
+
+(1) Main 화면 : sub 페이지 이동 버튼 , TextView 바꾸기 및 Toast 출력 버튼
+
+(2) Sub 화면 : Home 페이지 이동 버튼, Login 페이지 이동 버튼, Register 페이지 이동 버튼
+
+(3) Login 화면 : Home 페이지 이동 버튼, EditText로 ID, Password 입력, Check_ID_Password 페이지 이동 버튼
+
+(4) Register 화면 : Home 페이지 이동 버튼, EditText로 ID, Password, Name, Mail 입력, Login 페이지 이동 및 이동 후 Toast 출력 버튼 
+(향후 호스팅, 테이블, SQL, PHP 등을 사용해 DB에 저장 할 예정)
+
+(5) Check_ID_Password 화면 : Home 페이지 이동 버튼, ID, Password를 TextView에 출력, 
+
+           
 21_01_08_FRI
 -------------
               
