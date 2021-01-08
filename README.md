@@ -38,7 +38,26 @@
 21_01_08_FRI
 -------------
  
- ![img](./21_01_08/isSBSettingEnabled false.PNG)
+ - myapplication 이름 변경 : RegisterActivity, LoginActivity
+ - 파일 추가 : ValidateRequest, RegisterRequest, LoginRequest
+ - 기능 추가 : Activity 들어간 파일에 Volley 라이브러리로 php 서버와 통신을 가능하게 만들었다.
+              버튼 뒤 Listener를 연결한다.
+ 
+ (1) : ValidateRequest : RegisterActivity에 ID 중복 체크가 있는데 이를 위해 만든 class.
+ 
+ (2) : RegisterRequest : URL에 POST 방식으로 파라미터들을 전송하는 역할을 수행한다.
+                          회원가입 정보를 PHP 서버에보내서 데이터베이스에 저장시키게 한다.
+ (3) : LoginRequest : 위와 같은 역할을 한다. 
+                          데이터베이스의 정보와 비교해 조건을 결정한다.
+ 
+__* 실행 결과__
+ 
+ ![isSBSettingEnabled false](https://user-images.githubusercontent.com/49744580/104019758-78cad080-51ff-11eb-91dd-43f8bbf80a5f.PNG)
+
+연결이 제대로 되지 않는 모습을 확인할 수 있다. 
+이유는 UI Thread로 코드를 작성했기에 통신상 오래 걸린다. 
+누구는 안된다고 하는데 이걸 AsyncTask로 doInBackground에서 네트워크에 연결해야 진행이 된다고 누가 댓글을 알려줬다. 
+다음 시간에는 AsyncTask로 고쳐서 작성해봐야겠다. 
               
               
 21_01_11_MON
