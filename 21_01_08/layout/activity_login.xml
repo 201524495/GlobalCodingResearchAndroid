@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    Edit Text 글자 쓰는 곳에 "ID" 라고 표시-->
+    <EditText
+        android:id="@+id/Login_ID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID"></EditText>
+
+    <EditText
+        android:id="@+id/Login_PSW"
+        android:hint="PASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </EditText>
+    <!--    Edit Text 글자 쓰는 곳에 "PASSWORD" 라고 표시-->
+
+    <Button
+        android:id="@+id/Login_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/Login_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Login Page" />
+</LinearLayout>
