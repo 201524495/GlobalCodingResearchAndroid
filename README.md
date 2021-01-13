@@ -44,11 +44,11 @@ __2021 PNU Field Practice about Smart Farm Android Application Development__
  - 기능 추가 : Activity 들어간 파일에 Volley 라이브러리로 php 서버와 통신을 가능하게 만들었다.
               버튼 뒤 Listener를 연결한다.
  
- (1) : ValidateRequest : RegisterActivity에 ID 중복 체크가 있는데 이를 위해 만든 class.
+ (1) ValidateRequest : RegisterActivity에 ID 중복 체크가 있는데 이를 위해 만든 class.
  
- (2) : RegisterRequest : URL에 POST 방식으로 파라미터들을 전송하는 역할을 수행한다.
+ (2) RegisterRequest : URL에 POST 방식으로 파라미터들을 전송하는 역할을 수행한다.
                           회원가입 정보를 PHP 서버에보내서 데이터베이스에 저장시키게 한다.
- (3) : LoginRequest : 위와 같은 역할을 한다. 
+ (3) LoginRequest : 위와 같은 역할을 한다. 
                           데이터베이스의 정보와 비교해 조건을 결정한다.
  
 __* 실행 결과__
@@ -68,15 +68,27 @@ __* 실행 결과__
  - 기능 추가 : MainActivity에 BlueTooth로 이동하는 기능을 추가했다. 
  - 방향 수정 : 로그인을 하지 않기로 함. php와 SQL, 서버 관리 등 다른 언어를 배워야 하기 때문에 비효율적이라고 판단.
  
- (1) : BlueTooth : 블루투스 연결 조작 및 아두이노와 연결된 센서의 값을 받아오는 class. 스마트 팜에 사용되는 센서 "온습도센서", "조도센서", "수분센서", "가스센서", 총 5개의 칸을 만들어 각각의 값을 넣을 예정이다. 
+ (1) BlueTooth : 블루투스 연결 조작 및 아두이노와 연결된 센서의 값을 받아오는 class. 스마트 팜에 사용되는 센서 "온습도센서", "조도센서", "수분센서", "가스센서", 총 5개의 칸을 만들어 각각의 값을 넣을 예정이다. 
  
- (2) : LoginActivity : EditText의 위치가 onCreate 밖에 있어서 제대로 call이 되지 않아 NullPointer Error가 발생했다. 위치를 변경 후 오류가 사라진 모습을 확인할 수 있었다. 
+ (2) LoginActivity : EditText의 위치가 onCreate 밖에 있어서 제대로 call이 되지 않아 NullPointer Error가 발생했다. 위치를 변경 후 오류가 사라진 모습을 확인할 수 있었다. 
  
- (3) : Register : 그래도 나 혼자 php를 사용해 회원등록 및 로그인 기능을 추가할 예정임. 다른 네트워크 처리 방식을 공부해야 할 듯하다. 
+ (3) Register : 그래도 나 혼자 php를 사용해 회원등록 및 로그인 기능을 추가할 예정임. 다른 네트워크 처리 방식을 공부해야 할 듯하다. 
 
          
 21_01_12_TUE
 -------------
+
+ - 파일 추가 : X
+ - 기능 추가 : BlueTooth에 센서 값을 표시할 수 있는 TextView를 만들었다. 
+ - 방향 수정 : X
+ 
+ (1) BlueTooth : MainActivity에서 블루투스 연결이 잘 안되는 것을 발견했다. 블루투스 연결 버튼과 Text를 아두이노로 넘기는 버튼을 만들었지만 잘 안됐다. 
+ 
+ (2) 
+ 
+ (3) 
+
+MainActivity(2)로 블루투스 값이 Toast로 넘겨지는 현상이 발생했다. 뭐가 문제인지 한번 확인해봐야 할 듯 하다. 
 
 21_01_13_WED
 -------------
