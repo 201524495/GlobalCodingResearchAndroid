@@ -103,8 +103,7 @@ MainActivity(2)로 블루투스 값이 Toast로 넘겨지는 현상이 발생했
 
 MainActivity(2)의 화면... 잘 전달되고 잘 나오는 것을 확인할 수 있다. 
 
-<img src="/21_01_14/화면1.jpg" width="300" height="400">
-<img src="/21_01_14/화면1.jpg" width="300" height="400">
+<img src="/21_01_14/화면1.jpg" width="300" height="400"> <img src="/21_01_14/화면1.jpg" width="300" height="400">
 
               
 21_01_15_FRI
