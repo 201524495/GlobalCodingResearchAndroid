@@ -102,6 +102,7 @@ MainActivity(2)로 블루투스 값이 Toast로 넘겨지는 현상이 발생했
 -------------
 
 MainActivity(2)의 화면... 잘 전달되고 잘 나오는 것을 확인할 수 있다. 
+<img src="/21_01_14/화면1.jpg" width="300" height="300">
 
 ![MainActivity2_1](https://github.com/201524495/GlobalCodingResearchAndroid/blob/main/21_01_14/%ED%99%94%EB%A9%B41.jpg){: width="100" height="100"}
 ![MainActivity2_2](https://github.com/201524495/GlobalCodingResearchAndroid/blob/main/21_01_14/%ED%99%94%EB%A9%B42.jpg){: width="100" height="100"}
