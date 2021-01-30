@@ -138,6 +138,7 @@ MainActivity(2)의 화면... 잘 전달되고 잘 나오는 것을 확인할 수
    + 이미지 파일을 불러와 화면에 띄우는 실습을 진행
    + apach를 통해 서버를 만들어서 DB와 연결해 이미지를 가져오는 연습을 할 예정
    <img src="/21_01_30/apach24.PNG" width="668" height="257"> <img src="/21_01_30/localhost.PNG" width="320" height="164">
+   <img src="/21_01_30/php8.PNG" width="1171" height="382">
             
 21_01_22_FRI
 -------------
