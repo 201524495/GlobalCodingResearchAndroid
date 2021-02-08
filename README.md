@@ -142,5 +142,37 @@ MainActivity(2)의 화면... 잘 전달되고 잘 나오는 것을 확인할 수
    <img src="/21_01_30/localhost.PNG" width="320" height="164">
    <img src="/21_01_30/php8.PNG" width="900" height="310">
             
-21_01_22_FRI
+21_02_08_MON
 -------------
+
+ + My SQL을 이용해 DB 생성 및 통제
+ + 기본 문법 및 함수 익히기
+```
+ - show databases;
+ - create database [db_name];
+create database study_db;
+ - use [db_name];
+use study_db;
+ - create table [table_name](
+create table user (
+~~
+id varchar(16);
+~~
+pw varchar(16);
+);
+ - desc [talbe_name];
+desc user;
+ - drop [table_name];
+drop user;
+ - insert into [table_name] value(",");
+insert into user value('An', '1234');
+ - select [항목] from [table_name] [옵션];
+select * from user;
+select id from user where age=2;
+ - delete from [table_name] [삭제할 열의 조건];
+ - update [table_name] set [바꿀 값] [바꿀 행];
+```
+ + 향후 DB에 다양한 자료를 저장 예정
+
+ <img src="/21_02_08/db_example2.PNG" width="560" height="210">
+ <img src="/21_02_08/db_example.PNG" width="580" height="670">
