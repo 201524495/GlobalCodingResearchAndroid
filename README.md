@@ -176,3 +176,19 @@ select id from user where age=2;
 
  <img src="/21_02_08/db_example2.PNG" width="560" height="210">
  <img src="/21_02_08/db_example.PNG" width="580" height="670">
+
+21_02_09_TUE
+-------------
+
+ + ALTER 명령어 공부
+ + AUTO_INCREMENT & PRIMARY KEY 공부
+```
+ALTER TABLE board MODIFY seq INT NOT NULL AUTO_INCREMENT;
+(board 테이블에 있는 seq 이름의 field의 특징을 Type : int , Not NULL, AUTO_INCREMENT로 변경)
+
+ALTER TABLE board ADD CONSTRAINT seq PRIMARY KEY (seq);
+(board 테이블에 있는 seq 이름의 field의 특징을 NULL : NO, KEY : PRI로 변경)
+
+ALTER TABLE board DROP COLUMN DateOfBirth;
+(board 테이블에 있는 DateOfBirth 행을 삭제)
+```
