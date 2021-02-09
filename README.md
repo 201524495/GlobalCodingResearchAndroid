@@ -154,7 +154,7 @@ create database study_db;
  - use [db_name];
 use study_db;
  - create table [table_name](
-create table user (
+CREATE TABLE user (
 ~~
 id varchar(16);
 ~~
@@ -163,12 +163,12 @@ pw varchar(16);
  - desc [talbe_name];
 desc user;
  - drop [table_name];
-drop user;
+DROP user;
  - insert into [table_name] value(",");
-insert into user value('An', '1234');
+INSERT INTO user value('An', '1234');
  - select [항목] from [table_name] [옵션];
-select * from user;
-select id from user where age=2;
+SELECT * FROM user;
+SELECT id FROM user WHERE age=2;
  - delete from [table_name] [삭제할 열의 조건];
  - update [table_name] set [바꿀 값] [바꿀 행];
 ```
