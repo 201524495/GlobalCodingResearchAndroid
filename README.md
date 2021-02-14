@@ -197,9 +197,13 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
 -------------------
 
  + Register.php 이해
- + Login.php 이해 X
+ + Login.php 이해 X -- 수정 필요
 ```
-
+ - Register.php를 통해 아이디, 비밀번호, 이름, 나이를 phpMyAdmin에 저장
+ - 비밀번호는 password.php를 통해 암호화 후 hash field에 추가
+ - Login.php를 통해 아이디, 비밀번호를 확인 후 DB에 있는 hash와 암호 비교
+ - 이후 MainActivity에 아이디, 비밀번호 표시
+ - 
 ```
  <img src="/21_02_14/login.jpg" width="340" height="660">
  <img src="/21_02_14/login_test.PNG" width="671" height="146">
