@@ -192,3 +192,14 @@ ALTER TABLE board ADD CONSTRAINT seq PRIMARY KEY (seq);
 ALTER TABLE board DROP COLUMN DateOfBirth;
 (board 테이블에 있는 DateOfBirth 행을 삭제)
 ```
+
+21_02_14 SUN
+-------------------
+
+ + Register.php 이해
+ + Login.php 이해 X
+```
+
+```
+ <img src="/21_02_14/login.jpg" width="340" height="660">
+ <img src="/21_02_14/login_test.PNG" width="671" height="146">
