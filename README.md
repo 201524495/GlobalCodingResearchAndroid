@@ -207,3 +207,9 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
 ```
  <img src="/21_02_14/login.jpg" width="340" height="660">
  <img src="/21_02_14/login_test.PNG" width="671" height="146">
+
+21_02_15_MON
+-----------------
+
+ + php에 대한 전반적인 이해 필요해보임
+ + Login.php 이해 필요 ㅜㅜ
