@@ -28,7 +28,7 @@
 //한 번에 하나의 레코드만을 반환
     mysqli_stmt_store_result($statement);
 //데이터 버퍼를 바인딩해서 mysqli_stmt_bind_result() 호출로 추출한 열값을 사용
-    mysqli_stmt_bind_result($statement, $userID, $userPassword, $userName, $userAge);
+    mysqli_stmt_bind_result($statement, $userID, $userPassword, $userName, $userAge, $hash);
 
 //$response 배열 선언
     $response = array();
@@ -42,6 +42,7 @@
         $response["userPassword"] = $userPassword;
         $response["userName"] = $userName;
         $response["userAge"] = $userAge;        
+		$response["hash"] = $hash;
     }
 
     echo json_encode($response);
