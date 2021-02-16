@@ -205,8 +205,8 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
  - 이후 MainActivity에 아이디, 비밀번호 표시
  - 
 ```
- <img src="/로그인/login.jpg" width="340" height="660">
- <img src="/로그인/login_test.PNG" width="671" height="146">
+ <img src="/21_02_14/login.jpg" width="340" height="660">
+ <img src="/21_02_14/login_test.PNG" width="671" height="146">
 
 21_02_15_MON
 -----------------
