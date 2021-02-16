@@ -221,6 +221,10 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
  + DB - PHP - APP 연동 가능
 
 ```
+ - find.php : echo를 이용해 "Test"를 출력, Test가 출력된 것이 받아지면 앱에서 Toast를 띄움 (테스트 버튼)
+ - Login.php : 
+ - Register.php : 
 
-
+<웹에서 적용 방법>
+ //annjs0308.dothome.co.kr/@@@.php?@@=@@&@@=@@
 ```
