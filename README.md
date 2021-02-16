@@ -226,5 +226,5 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
  - Register.php : 공백이 들어오면 fail을 출력, 공백이 없고 다 잘 입력되면 INSERT 하고 "success" 출력 (회원가입 버튼)
 
 <웹에서 적용 방법>
- //annjs0308.dothome.co.kr/@@@.php?@@=@@&@@=@@
+ annjs0308.dothome.co.kr/@@@.php?@@=@@&@@=@@
 ```
