@@ -1,7 +1,7 @@
  <?php
   // session_start();
 
-  $db = new mysqli("localhost","","","");
+  $db = new mysqli("localhost", "annjs0308", "qntkseo15*", "annjs0308");
   $db->set_charset("utf8");
 
   if ($db->connect_errno){
