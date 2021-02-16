@@ -223,7 +223,7 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
 ```
  - find.php : echo를 이용해 "Test"를 출력, Test가 출력된 것이 받아지면 앱에서 Toast를 띄움 (테스트 버튼)
  - Login.php : password_verify를 통해 암호화된 비밀번호와 입력받은 비밀번호를 비교, 맞으면 "success"를 띄움 (로그인 버튼)
- - Register.php : 
+ - Register.php : 공백이 들어오면 fail을 출력, 공백이 없고 다 잘 입력되면 INSERT 하고 "success" 출력 (회원가입 버튼)
 
 <웹에서 적용 방법>
  //annjs0308.dothome.co.kr/@@@.php?@@=@@&@@=@@
