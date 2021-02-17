@@ -9,12 +9,11 @@ $userpasswd = $_GET["userPassword"]; //앱에서 앱력받고
 $sql = mq("SELECT * FROM USER WHERE userID='$userID'");
 $result = $sql->fetch_assoc();
 
-if(strcmp($result['userID'], $userID) == 0) {//일치하는 값이 있으면
-
+if(strcmp($result['userID'], $userID) == 0) {//널 값이 아니면
 //  $result2json = array()
-  
   echo json_encode($result);//값이 주루룩 나옴
-//json 은 NAME과 VALUE를 가지고 있음
+  echo "\n";
+  echo $result['userID'];//userID 값만 나옴
 }
 else {//널 값이면
   echo 'fail';

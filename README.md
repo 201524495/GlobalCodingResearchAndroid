@@ -196,8 +196,8 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
 21_02_14 SUN
 -------------------
 
- + Register.php 이해
- + Login.php 이해 X -- 수정 필요
+ + ~~Register.php 이해~~
+ + ~~Login.php 이해 X -- 수정 필요~~
 ```
  - Register.php를 통해 아이디, 비밀번호, 이름, 나이를 phpMyAdmin에 저장
  - 비밀번호는 password.php를 통해 암호화 후 hash field에 추가
@@ -212,4 +212,19 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
 -----------------
 
  + php에 대한 전반적인 이해 필요해보임
- + Login.php 이해 필요 ㅜㅜ
+ + ~~Login.php 이해 필요 ㅜㅜ~~
+
+21_02_16_THU
+-----------------
+
+ + 로그인 및 회원가입 기능 추가 완료
+ + DB - PHP - APP 연동 가능
+
+```
+ - find.php : echo를 이용해 "Test"를 출력, Test가 출력된 것이 받아지면 앱에서 Toast를 띄움 (테스트 버튼)
+ - Login.php : password_verify를 통해 암호화된 비밀번호와 입력받은 비밀번호를 비교, 맞으면 "success"를 띄움 (로그인 버튼)
+ - Register.php : 공백이 들어오면 fail을 출력, 공백이 없고 다 잘 입력되면 INSERT 하고 "success" 출력 (회원가입 버튼)
+
+<웹에서 적용 방법>
+ annjs0308.dothome.co.kr/@@@.php?@@=@@&@@=@@
+```

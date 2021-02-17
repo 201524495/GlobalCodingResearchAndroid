@@ -2,7 +2,7 @@
 include_once('./new_Login/db.php');
 include_once('./password.php');
 //Register Button
-//공백 여부는 앱에서 판단
+//공백 여부는 앱에서 판단.
     $userID = $_POST["userID"];
     $userPassword = $_POST["userPassword"];
     $userName = $_POST["userName"];
