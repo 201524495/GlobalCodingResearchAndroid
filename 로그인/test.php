@@ -7,14 +7,15 @@ $userpasswd = $_GET["userPassword"]; //앱에서 앱력받고
 
 //DB에 있는 userID와 입력받은 userID가 같은 레코드 select
 $sql = mq("SELECT * FROM USER WHERE userID='$userID'");
-$result = $sql->fetch_assoc();
 
-if(strcmp($result['userID'], $userID) == 0) {//널 값이 아니면
-//  $result2json = array()
-  echo json_encode($result);//값이 주루룩 나옴
-  echo "\n";
-  echo $result['userID'];//userID 값만 나옴
+$row = mysqli_fetch_array($sql);
+$data = $row[0];
+$result = array();
+
+if($data) {
+  echo $data;
 }
+    //echo json_encode($result2json);//값이 주루룩 나옴
 else {//널 값이면
   echo 'fail';
 }
