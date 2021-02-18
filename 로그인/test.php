@@ -11,6 +11,10 @@ $sql = mq("SELECT * FROM USER WHERE userID='$userID'");
 $row = mysqli_fetch_array($sql);
 $data = $row[0];
 $result = array();
+$result[0] = $row[0];
+$result[1] = $row[1];
+$result[2] = $row[2];
+$result[3] = $row[3];
 
 if($data) {
   echo $data;
