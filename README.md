@@ -214,7 +214,7 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
  + php에 대한 전반적인 이해 필요해보임
  + ~~Login.php 이해 필요 ㅜㅜ~~
 
-21_02_16_THU
+21_02_16_TUE
 -----------------
 
  + 로그인 및 회원가입 기능 추가 완료
@@ -228,3 +228,11 @@ ALTER TABLE board DROP COLUMN DateOfBirth;
 <웹에서 적용 방법>
  annjs0308.dothome.co.kr/@@@.php?@@=@@&@@=@@
 ```
+
+21_02_18_THU
+---------------
+ 
+ + Background 이용한 0 To 100 app
+ + BluetoothSSP 이용한 Bluetooth app
+ + DB - PHP - okhttp3 이용한 Login & Register app
+
